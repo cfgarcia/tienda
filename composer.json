@@ -1,0 +1,52 @@
+{
+    "name": "coppel/tiendas",
+    "description": "",
+    "type": "library",
+    "license": "propietary",
+    "authors": [
+        {
+            "name": ""
+            ,"email": "cfgarcia@coppel.com"
+        }
+    ],
+    "repositories" : [
+        {
+            "packagist": false
+        },
+        {
+            "type":"vcs", 
+            "url":"http://gitlab.coppel.com/oc/rac.git"
+        },
+        {
+            "type" : "vcs",
+            "url" : "http://gitlab.coppel.com/oc/log.git"
+        },
+        {
+            "type" : "vcs",
+            "url" : "http://gitlab.coppel.com/oc/klogger.git"
+        },
+        {
+            "type":"vcs", 
+            "url":"http://10.44.2.6/oc/httpful.git"
+        },
+        {
+            "type":"vcs", 
+            "url":"http://10.44.2.6/oc/tcpdf.git"
+        },
+        {
+            "type" : "vcs",
+            "url" : "http://gitlab.coppel.com/oc/PHPMailer.git"
+        }
+    ],
+    "require": {
+        "oc/rac": "v0.2.2",
+        "psr/log" : "v1.0.0",
+        "katzgrau/klogger" : "dev-master",
+        "nategood/httpful" : "*",
+        "tecnickcom/tcpdf" : "v6.2.12",
+        "phpmailer/phpmailer": "*"
+    },
+    "config" : {
+        "secure-http" : false
+    }
+}

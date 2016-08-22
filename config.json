@@ -1,0 +1,19 @@
+{
+	"db" : {
+		"dbname" : "test",
+		"host" : "localhost",
+		"username" : "root",
+		"password" : ""
+	},
+	"cartera" : {
+		"dbname" : "cartera",
+		"host" : "10.44.64.190",
+		"username" : "programacion",
+		"password" : "progs"
+	},
+	"wsMantenimiento":"http://10.44.172.240:50027/connect/CodigoPostal?wsdl",
+	"wsZonasCalles":"http://10.44.172.240:50014/connect/MantenimientoZonasCalles?wsdl",
+	"centroServicio":"10.28.114.24/tallercelulares",
+	"auth" : "server:port/sso/api/v1/verify",
+	"authDev" : "http://10.28.114.24/sso/api/v1/verify"
+}
